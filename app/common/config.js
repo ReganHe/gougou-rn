@@ -9,21 +9,22 @@ export default {
     }
   },
   backup: {
-    avatar: 'http://res.cloudinary.com/gougou/image/upload/gougou.png'
+    avatar: 'http://res.cloudinary.com/yanghe/image/upload/gougou.png'
   },
   qiniu: {
     video: 'http://video.iblack7.com/',
     thumb: 'http://video.iblack7.com/',
-    avatar: 'http://o9spjqu1b.bkt.clouddn.com/',
+    avatar: 'http://p17nffcfn.bkt.clouddn.com/',
     upload: 'http://upload.qiniu.com'
   },
   cloudinary: {
-    cloud_name: 'gougou',  
-    api_key: '852224485571877',  
-    base: 'http://res.cloudinary.com/gougou',
-    image: 'https://api.cloudinary.com/v1_1/gougou/image/upload',
-    video: 'https://api.cloudinary.com/v1_1/gougou/video/upload',
-    audio: 'https://api.cloudinary.com/v1_1/gougou/raw/upload',
+    cloud_name: 'yanghe',
+    api_key: '723954978127639',
+    api_secret: 'OXJfk4Ypx96B5WC6w3f1W4c1FYE',
+    base: 'http://res.cloudinary.com/yanghe',
+    image: 'https://api.cloudinary.com/v1_1/yanghe/image/upload',
+    video: 'https://api.cloudinary.com/v1_1/yanghe/video/upload',
+    audio: 'https://api.cloudinary.com/v1_1/yanghe/raw/upload'
   },
   api: {
     creations: baseUrl + 'api/creations',
