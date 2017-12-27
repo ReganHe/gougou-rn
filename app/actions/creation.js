@@ -58,7 +58,7 @@ export const fetchCreations = (feed) => {
     })
 
     request.get(url, {
-      accessToken: 'user.accessToken',
+      accessToken: user.accessToken,
       feed: feed,
       cid: cid
     })

@@ -12,8 +12,8 @@ export default {
     avatar: 'http://res.cloudinary.com/yanghe/image/upload/gougou.png'
   },
   qiniu: {
-    video: 'http://video.iblack7.com/',
-    thumb: 'http://video.iblack7.com/',
+    video: 'http://p1iv33aof.bkt.clouddn.com/',
+    thumb: 'http://p1iv33aof.bkt.clouddn.com/',
     avatar: 'http://p17nffcfn.bkt.clouddn.com/',
     upload: 'http://upload.qiniu.com'
   },

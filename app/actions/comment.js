@@ -89,7 +89,7 @@ export const fetchComments = (cid, feed) => {
     })
 
     request.get(url, {
-      accessToken: 'user.accessToken',
+      accessToken: user.accessToken,
       feed: feed,
       cid: cid,
       id: id
